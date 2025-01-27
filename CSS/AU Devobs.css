@@ -1,0 +1,63 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 75%;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+}
+
+nav {
+  width: 110%;
+  height: 12vh;
+  position: sticky;
+}
+
+.nav-container {
+  width: 120%;
+  height: 250%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.logo span {
+  color: green;
+}
+
+.logo span :hover{
+    color: blueviolet;
+    border-bottom: 3px solid;
+}
+.nav-container .links {
+  display: flex;
+}
+
+.nav-container .links a {
+  font-size: 1.2rem;
+  color: white;
+  margin: 0 40px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.4s linear;
+}
+
+.nav-container .links a:hover {
+  color: violet;
+  border-bottom: 3px solid;
+}   
+
+
+
